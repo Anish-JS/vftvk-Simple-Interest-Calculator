@@ -13,7 +13,7 @@ function compute() {
     alert("Enter positive number");
     principal.focus();
   }
-  var amount = interest + principal;
+  var amount = interest;
   document.getElementById("result").innerHTML =
     "If you deposit " +
     principal +
